@@ -58,7 +58,7 @@ public class Add_Product_Test extends MainTest {
 	public void complete_shopping()
 	{
 		cartPage.complete_Shopping();
-		Assertions.assertTrue(true,"Login page not loaded");
+		Assertions.assertTrue(loginPage.isOnLoginPage(),"Login page not loaded");
 	}
 	
 	
